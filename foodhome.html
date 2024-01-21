@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Hub</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>HUNGRY <span style="color: white;">POINT</span> </h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" placeholder="Search your special" id="inp"  onkeyup="myfun()">
+                <i class="fa-brands fa-searchengin"></i>
+            </div>
+            <div class="icon">
+                <i  onclick="login()" class="fa-solid fa-user">login</i>
+                <i class="fa-solid fa-cart-shopping" ><a href="order.php">order</a></i>
+                <i onclick="nav()" class="fa-solid fa-bars" ></i>
+            </div>
+        </nav>
+        <div class="login">
+            <h2>Your <span>Details</span></h2>
+            <form action="login.php" method="POST">
+                <input type="text" name="" value="" placeholder="Enter username"><br>
+            <input type="text" name="" id="" value="" placeholder="Enter password"><br>
+   <input style=" background-color: #b1b126; font-family: 'Generic' ,cursive;" type="submit" value="submit" name="submit">
+           
+            </form>
+        </div>
+        <div class="nav">
+           <a href="foodhome.html"> <p>Home</p></a>
+                
+                <p id="demo">Foods</p>
+                
+            <p>Blogs</p>
+            <p>Coustmer</p>
+        </div>
+       
+
+        <!-- main page -->
+<div class="main">
+    <div class="text">
+        <h1>Full Your Tummy With Healthy & Tasty</h1><br>
+        <p>Healthy food refers to food that contains the right amount of nutrients to keep our body fit. We need healthy food to keep ourselves fit.</p><br>
+        <button><a href="order.php">Let's See New</a> </button>
+
+    </div>
+    <img src="uploads/burgur1.png" alt="">
+</div>
+
+<!-- cards -->
+
+<table>
+    <tr>
+        <td>
+            <div class="head">
+                <a href="specl">go</a>
+                <h1>Special <span>In</span></h1>
+            </div>
+            <div class="crd">
+                <div class="card">
+                    <img src="uploads/rool.png" alt="">
+                    <h2>199 only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, eum.
+                    </p>
+                    <button><a href="order.php">Get now</a></button>
+                </div>
+                <div class="card">
+                    <img src="uploads/snak.png" alt="">
+                    <h2>199 only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, eum.
+                    </p>
+                    <button><a href="order.php">Get now</a></button>
+                </div>
+                <div class="card">
+                    <img src="uploads/cobo.png" alt="">
+                    <h2>199 only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, eum.
+                    </p>
+                    <button><a href="order.php">Get now</a></button>
+                </div>
+            </div>
+
+            <div class="crd">
+                <div class="card">
+                    <img src="uploads/oo.png" alt="">
+                    <h2>199 only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, eum.
+                    </p>
+                    <button><a href="order.php">Get now</a></button>
+                </div>
+                <div class="card">
+                    <img src="uploads/pizza.png" alt="">
+                    <h2>199 only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, eum.
+                    </p>
+                    <button><a href="order.php">Get now</a></button>
+                </div>
+                <div class="card">
+                    <img src="uploads/roti.png" alt="">
+                    <h2>199 only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, eum.
+                    </p>
+                    <button ><a href="order.php">Get now</a></button>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="head">
+                <h1>Our <span>Blogs</span></h1>
+            </div>
+            
+            <div class="crd">
+                <div class="blog">
+                    <img src="uploads/chiken.png" alt="">
+                    <h2>Verity About Food</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, eum.
+                    </p>
+                   <a href="https://www.littleindiaofdenver.com/blog/7-facts-you-never-knew-about-indian-food/">Read  Rife</a>
+                </div>
+                <div class="blog">
+                    <img src="uploads/dog.png" alt="">
+                    <h2>Diffrent Types Of Burger</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, eum.
+                    </p>
+                   <a href="https://www.finedininglovers.com/article/burger-types-famous-to-make">Read  Rife</a>
+                </div>
+                <div class="blog">
+                    <img src="uploads/dog.png" alt="">
+                    <h2>Recipies</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, eum.
+                    </p>
+                   <a href="https://www.indianhealthyrecipes.com/indian-dinner-recipes/">Read  Rife</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<!-- Couster Review -->
+<div class="head">
+    <h1>Coustmer <span>Review</span></h1>
+</div>
+<div class="review">
+    <div class="coustmer">
+        <img src="uploads/men.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, autem!</p>
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+    </div>
+    <div class="coustmer">
+        <img src="uploads/men1.webp" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, autem!</p>
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+    </div><div class="coustmer">
+        <img src="uploads/men2.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, autem!</p>
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+    </div>
+    
+</div>
+<div class="btn">
+    <button onclick="pre()">Previous</button>
+    <button onclick="next()">Next</button>
+</div>
+<div class="footer">
+    <div class="txt">
+        <h2>About Us</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. !</p>
+        <p>Service</p>
+        <p>Coustmer</p>
+        <p>Foods</p>
+    </div>
+    <div class="txt">
+        <h2>About Us</h2>
+        <p>Product</p>
+        <p>Service</p>
+        <p>Coustmer</p>
+        <p>Foods</p>
+    </div>   <div class="txt">
+        <h2>About Us</h2>
+        <p>Near</p>
+        <p>Service</p>
+        <p>Coustmer</p>
+        <p>Foods</p>
+    </div>   <div class="txt">
+        <h2>About Us</h2>
+        <p>Website</p>
+        <p>Service</p>
+        <p>Coustmer</p>
+        <p>Foods</p>
+    </div>
+
+</div>
+        
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>

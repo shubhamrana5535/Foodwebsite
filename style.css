@@ -1,0 +1,367 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-size: 'Generic' ,cursive; */
+    background-color: rgb(64, 63, 63);
+    color: white;
+}
+.logo h1{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Generic' ,cursive;
+    font-size: 40px;
+    color: #b1b126;
+    margin-top: -3px;
+}
+.icon i{
+    font-size: 25px;
+    margin-inline:15px;
+    background-color: beige;
+    color: black;
+    padding: 11px;
+    border-radius: 5px;
+}
+.icon i :hover{
+    color: #b1b126;
+cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+nav input{
+    width: 600px;
+    padding: 13px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 3px;
+    box-shadow: 6px 8px 5px rgb(233, 170, 11);
+}
+nav .input i{
+    margin-left: -25px;
+    color: black;
+    font-size: 20px;
+}
+.main{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+.main img{
+    width: 660px;
+    padding-right: 50px;
+
+   
+}
+.main .text{
+    width: 500px;
+    font-family: 'Generic' ,cursive;
+
+    padding-left: 50px;
+    justify-content: space-between;
+
+}
+.main button{
+    margin-top: 30px;
+    width: 140px;
+    height: 50px;
+    padding: 6px;
+    background-color: #b1b126;
+
+}
+.crd{
+    display: flex;
+    justify-content:center;
+    color: black;
+    margin-left: 270px;
+
+}
+.crd .card{
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    padding: 13px;
+    color: black;
+    margin-inline:30px;
+    margin-top: 100px;
+}
+.card h2{
+    margin-top: 15px;
+
+}
+.card p{
+    margin-top: 15px;
+
+}
+.card button{
+    margin-top: 30px;
+    width: 140px;
+    height: 50px;
+    padding: 6px;
+    background-color: #b1b126;
+border-radius: 18px;
+
+}
+
+.card img{
+    width: 100%;
+}
+
+.blog{
+    width: 300px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    padding: 13px;
+    color: black;
+    margin-inline:30px;
+    margin-top: 100px;
+}
+.blog img{
+    width: 100%;
+
+}
+.blog h2{
+    margin-top: 15px;
+}
+.blog p{
+    margin-top: 15px;
+}
+.blog a{
+    position: relative;
+    top: 40px;
+    width: 100px;
+    height: 60px;
+    padding: 6px;
+    background-color: #b1b126;
+border-radius: 18px;
+}
+.review{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    width: 900px;
+    height: 465px;
+    margin-top: 45px;
+}
+.head{
+    margin-left: 250px;
+    
+}
+.head h1{
+    font-family: 'Generic' ,cursive;
+
+    text-align: center;
+    font-size: 45px;
+    /* background-color: #f7f7dd; */
+    margin-top: 20px;
+}
+.head span{
+    color: #b1b126;
+}
+.form{
+
+}
+.review{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    /* margin-left: 100px; */
+    width: 1000px;
+    
+    margin-top: 65px;
+}
+.review .coustmer{
+    position: absolute;
+   width: 100%;
+   padding: 10px;
+   /* height:300px; */
+  
+
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
+.coustmer img{
+    width: 29%;
+    height: 188%;
+border-radius: 80%;
+    
+}
+.coustmer i{
+    font-size: 30px;
+    color: #b1b126;
+    margin-top: 14px;
+}
+.btn{
+    text-align: center;
+    color: #b1b126;
+}
+.btn button{
+    margin-bottom: 10px;
+    width: 140px;
+    height: 50px;
+    padding: 6px;
+    background-color: #b1b126;
+    border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: #b1b126;
+    padding: 60px;
+    margin-top: 40px;
+}
+.footer .txt{
+    
+
+}
+.txt p{
+    margin: 14px;
+}
+
+.cart{
+    /* display: none; */
+    position: absolute;
+    margin-left: 30%;
+    width:650px;
+    padding: 22px;
+    background-color: rgb(212, 136, 136);
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 140px;
+    color: black;
+    font: 1em sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.table1{
+    /* background-color: #b1b126; */
+ 
+    margin:200px;
+    padding: 30px;
+    width: 75%;
+   
+
+}
+.logout a{
+    color: white;
+    text-decoration: none;
+
+    font-family: 'Generic' ,cursive;
+    font-size: 40px;
+}
+.table1 table{
+    width:100%;
+    border: 5px solid black;
+    background-color: #b1b126;
+    padding: 10px;
+    text-align: justify;
+}
+.table1 table thead{
+    color: black;
+    background-color: bisque;
+}
+
+.cart  input,select{
+    border: none;
+    border-bottom:4px solid black;
+ font-size: 20px;
+ margin-top: 10px;
+ padding: 9px;
+}
+ .rama{
+    background-color: #b1b126;
+}
+.cart button{
+    border: none;
+    border-bottom:4px solid black;
+ font-size: 20px;
+ margin-top: 10px;
+ padding: 9px;
+ background-color: #b1b126;
+ font-family: 'Generic' ,cursive;
+ border-radius: 3px;
+
+}
+.login {
+    display: none;
+    position: absolute;
+    margin-left: 80%;
+    width: 250px;
+    padding: 22px;
+    background-color: rgb(203, 241, 203);
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+.login h2{
+    color: black;
+    font-family: 'Generic' ,cursive;
+    font-size: 40px;
+}
+.login span{
+    color: #b1b126;
+}
+.login input{
+    border: none;
+    border-bottom:4px solid black;
+ font-size: 20px;
+ margin-top: 10px;
+ padding: 9px;
+}
+.login button{
+    border: none;
+    border-bottom:4px solid black;
+ font-size: 20px;
+ margin-top: 10px;
+ padding: 9px;
+ background-color: #b1b126;
+ font-family: 'Generic' ,cursive;
+ border-radius: 3px;
+
+}
+.nav{
+    display: none;
+    position: absolute;
+    margin-left: 80%;
+    width: 250px;
+    padding: 22px;
+    background-color:black;
+    /* text-align: center; */
+    border-radius: 5px;
+    margin-top: 100px;
+}
+.nav p{
+    width: 150px;
+    color:aliceblue;
+ font-size: 20px;
+ font-family: 'Generic' ,cursive;
+ border-radius: 15px;
+
+
+}
+.nav p:hover{
+    background-color: #b1b126;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
